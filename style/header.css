@@ -1,10 +1,26 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
 .container {
     display: flex;
     justify-content: space-between;
     padding: 1em 1em 1.5em 1.5em;
     align-items: center;
-    position: relative;
     background-color: var(--branco);
+}
+
+.container_imagem_menu_hamburguer {
+    width: 1.5em;
+    height: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/Menu.svg");  /* dois pontos para concatenar o caminho da imagem */
+    display: inline-block;  /* para que a imagem seja exibida como um elemento inline, assim sendo possível 
+                             manipular a largura e altura */
 }
 
 .container_botao {
@@ -31,7 +47,7 @@
     top: 100%;
     left: 0;
     background: var(--branco-estranho);
-    width: 13.75em;
+    width: 60vw;
     height: 17.5em;
     list-style: none;
     padding: 0;
