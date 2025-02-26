@@ -36,27 +36,11 @@
 
     .tópicos__link {
         font-size: 24px;
-        font-family: poppins;
     }
 }
 
 @media screen and (min-width: 1728px) {
     .tópicos {
         padding: 3em 30vw;
-        min-height: 418px;
-        max-width: 100%;
-        
-    }
-    .tópicos__titulo{
-        font-size: 32px;
-        font-weight: 300;
-        font-family: poppins;
-    }
-
-    .tópicos__link{
-        font-size: 24px;
-        font-weight: bold;
-        font-family: poppins;
-        
     }
 }
