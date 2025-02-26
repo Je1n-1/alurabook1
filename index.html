@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
     <header class="cabecalho">
-        <spam class="container_imagem_menu_hamburguer">
-            <img src="img/Menu.svg" alt="Menu" class="container_imagem">
-        </spam>
-        <div class="container_logo">
-            <img src="img/Logo.svg" alt="Logo Alura Books" class="logo_imagem">
-            <h1 class="logo_titulo">Alura<span class="logo_titulo_negrito">Books</span></h1>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            
+            <!-- Label para ativar/desativar o menu -->
+            <label for="menu" class="container_label">
+                <span class="container_imagem_menu_hamburguer" src="img/Menu.svg" alt="Menu">
+            </label>
+            <img class="container_imagem_logo" src="img/Logo.svg" alt="Logo da Alura Books">  
+            <ul class="lista_menu">
+                <li class="lista_menu_titulo">Categorias</li>
+                <li class="lista_menu_item"><a href="#" class="lista-menu__link">Programação</a></li>
+                <li class="lista_menu_item"><a href="#" class="lista-menu__link">Front-end</a></li>
+                <li class="lista_menu_item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                <li class="lista_menu_item"><a href="#" class="lista-menu__link">Business</a></li>
+                <li class="lista_menu_item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+            </ul>
+    
+            <div class="container_opcoes">
+                <img class="container_imagem" src="img/Favoritos.svg" alt="Ícone de favoritos">
+                <img class="container_imagem" src="img/Compras.svg" alt="Ícone de carrinho de compras">
+                <img class="container_imagem" src="img/Usuario.svg" alt="Ícone de usuário">
+            </div>           
         </div>
     </header>
     
